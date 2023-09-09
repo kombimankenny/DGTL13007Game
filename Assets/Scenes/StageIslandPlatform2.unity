@@ -21338,8 +21338,8 @@ Transform:
   m_GameObject: {fileID: 122058726}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34, y: -0.002, z: 0}
-  m_LocalScale: {x: 0.6625, y: 0.2125, z: 1}
+  m_LocalPosition: {x: 3.1, y: -0.46, z: 0}
+  m_LocalScale: {x: 1.2468144, y: 0.26561671, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1506389354}
@@ -21378,8 +21378,8 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.3400002, y: -0.0020001617}
+  m_Anchor: {x: 0.96822894, y: 0.108348526}
+  m_ConnectedAnchor: {x: 4.3072014, y: -0.43122086}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!50 &122058730
@@ -53366,7 +53366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316234ebcc1d90941afaa60987b81649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 8945448632453801675, guid: afa86ee8c2fdd3e46b0f58558436bda8,
+  objectPrefab: {fileID: 9038927265392019968, guid: 5f6caf9f6f33de647b6622bbee632f7a,
     type: 3}
 --- !u!114 &1491501282
 MonoBehaviour:
