@@ -54,5 +54,8 @@ public class EnemyShooter : MonoBehaviour
         // Set the velocity of the projectile
         Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
         projectileRigidbody.velocity = projectile.transform.right * projectileSpeed;
+
+        // Ignore collisions between the shooter and its own bullets
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), projectile.GetComponent<Collider2D>());
     }
 }
