@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3550611412319924127}
   - component: {fileID: 9166909201462098946}
-  - component: {fileID: 3665701421802363862}
-  - component: {fileID: 4568117070459295175}
   - component: {fileID: 5865932110814288501}
+  - component: {fileID: -4518209776254113656}
   m_Layer: 0
   m_Name: Island1
   m_TagString: Untagged
@@ -87,42 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3665701421802363862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8975603592718996904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: StageIslandPlatform2
---- !u!114 &4568117070459295175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8975603592718996904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 3665701421802363862}
-  useCustomActions: 0
-  customActions:
-    m_PersistentCalls:
-      m_Calls: []
-  happenOnlyOnce: 1
-  filterByTag: 1
-  filterTag: Player
-  frequency: 1
-  eventType: 0
 --- !u!61 &5865932110814288501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,3 +131,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 24.77, y: 9.7}
   m_EdgeRadius: 0
+--- !u!114 &-4518209776254113656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975603592718996904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfd058df52d8c94297960f2a19d1965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNames:
+  - StageIslandPlatform2
+  - StageIsland3

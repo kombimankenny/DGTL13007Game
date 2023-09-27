@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StageOpenWorld.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/StageIslandPlatform1.unity
-    guid: dce3ed9141f863641afa2a277f5679dc
-  - enabled: 1
     path: Assets/Scenes/StageIslandPlatform2.unity
     guid: eae0ebcf321d5cb4394d657dfb19c9c7
+  - enabled: 1
+    path: Assets/Scenes/StageIsland3.unity
+    guid: bb4a1d8a5c96dbc429a8e259f33ba522
   m_configObjects: {}
