@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-
+    public Animator animator;
     private float Move;
-
     public float speed;
     // Start is called before the first frame update
     void Start()
@@ -21,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
         Move = Input.GetAxisRaw("Horizontal");
 
         rb.velocity = new Vector2(Move * speed, rb.velocity.y);
+
+        animator.SetFloat("speed", Mathf.Abs(Move));
 
     }
 }

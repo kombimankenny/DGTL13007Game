@@ -14,7 +14,7 @@ public class PlayerController : Physics2DObject
     public float speedBoostFactor = 2.0f; // Speed boost factor
     public float powerUpDuration = 5.0f;   // Duration of the power-up effect
 
-    private float originalSpeed;
+    //private float originalSpeed;
     private float speedBoostEndTime;
     private Vector2 pushVector;
     private bool isPushing = false;
@@ -68,7 +68,7 @@ public class PlayerController : Physics2DObject
 
     private void Start()
     {
-        originalSpeed = 8;
+        //originalSpeed = 8;
     }
 
 }

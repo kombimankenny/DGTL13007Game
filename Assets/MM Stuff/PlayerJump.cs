@@ -8,6 +8,8 @@ public class PlayerJump : MonoBehaviour
     public float jumpForce;
     public int maxJumps = 2; // Adjust this to set the maximum number of jumps.
     private int jumpsRemaining;
+    public bool jump = false;
+    public Animator animator;
 
     void Start()
     {
@@ -19,6 +21,8 @@ public class PlayerJump : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) && jumpsRemaining > 0)
         {
+            jump = true;
+            animator.SetBool("IsJumping", true);
             Vector2 jumpVector = new Vector2(rb.velocity.x, jumpForce);
             rb.velocity = new Vector2(rb.velocity.x, 0); // Clear vertical velocity before jumping.
             rb.AddForce(jumpVector, ForceMode2D.Impulse);
@@ -27,11 +31,12 @@ public class PlayerJump : MonoBehaviour
     }
 
     // Assuming you have a ground check mechanism.
-    void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             jumpsRemaining = maxJumps; // Reset jumps when touching the ground.
+            animator.SetBool("IsJumping", false);
         }
     }
 }

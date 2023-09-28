@@ -10,7 +10,7 @@ public class ObjectShooter : MonoBehaviour
 
     // The key to press to create the objects/projectiles
     public KeyCode keyToPress = KeyCode.Space;
-
+    public Animator animator;
     [Header("Other options")]
 
     // The rate of creation, as long as the key is pressed
@@ -24,9 +24,10 @@ public class ObjectShooter : MonoBehaviour
     public bool relativeToRotation = true;
 
     private float timeOfLastSpawn;
-
+    public bool shooting = false;
     // Will be set to 0 or 1 depending on how the GameObject is tagged
     private int playerNumber;
+    
 
     // Use this for initialization
     void Start()
@@ -44,7 +45,8 @@ public class ObjectShooter : MonoBehaviour
            && Time.time >= timeOfLastSpawn + creationRate)
         {
             Vector2 actualBulletDirection = (relativeToRotation) ? (Vector2)(Quaternion.Euler(0, 0, transform.eulerAngles.z) * shootDirection) : shootDirection;
-
+            shooting = true;
+            animator.SetBool("IsShooting", shooting);
             GameObject newObject = Instantiate<GameObject>(prefabToSpawn);
             newObject.transform.position = this.transform.position;
             newObject.transform.eulerAngles = new Vector3(0f, 0f, Utils.Angle(actualBulletDirection));
