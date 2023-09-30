@@ -1083,7 +1083,7 @@ MonoBehaviour:
     maxSpawnCount: 1
   - prefab: {fileID: 4247633843175180315, guid: b280f9dbfd01a5a4ea2cd00574687f97,
       type: 3}
-    spawnDelay: 11
+    spawnDelay: 30
     spawnDistance: 9
     maxSpawnCount: 1
   despawnDistanceThreshold: 12

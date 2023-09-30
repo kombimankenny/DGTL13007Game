@@ -14501,20 +14501,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 429673484667768875, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 248363806}
     - target: {fileID: 1912907203858869652, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.3773585
+      value: 0.9716981
       objectReference: {fileID: 0}
     - target: {fileID: 1912907203858869652, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.3773585
+      value: 0.9716981
       objectReference: {fileID: 0}
     - target: {fileID: 1912907203858869652, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.3773585
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912907203858869652, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912907203858869652, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 554826369
       objectReference: {fileID: 0}
     - target: {fileID: 3870242206522748428, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
         type: 3}
@@ -14576,6 +14591,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8764028504799698334, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 248363806}
+    - target: {fileID: 9038745400808253933, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 248363806}
     - target: {fileID: 9038745400808253933, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
         type: 3}
       propertyPath: shootSpeed
@@ -14818,6 +14843,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e56d4a83b73f54ab1b20531f53c625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &248363806 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 773858962403754333, guid: 724f45e4fba9a2a4f875d570aa1edc6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 91084732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &282591940
 GameObject:
   m_ObjectHideFlags: 0

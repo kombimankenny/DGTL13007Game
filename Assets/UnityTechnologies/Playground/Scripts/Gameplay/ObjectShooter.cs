@@ -45,8 +45,8 @@ public class ObjectShooter : MonoBehaviour
            && Time.time >= timeOfLastSpawn + creationRate)
         {
             Vector2 actualBulletDirection = (relativeToRotation) ? (Vector2)(Quaternion.Euler(0, 0, transform.eulerAngles.z) * shootDirection) : shootDirection;
-            shooting = true;
-            animator.SetBool("IsShooting", shooting);
+            //animator.SetBool("IsShooting", true);
+            animator.SetTrigger("IsShooting");
             GameObject newObject = Instantiate<GameObject>(prefabToSpawn);
             newObject.transform.position = this.transform.position;
             newObject.transform.eulerAngles = new Vector3(0f, 0f, Utils.Angle(actualBulletDirection));
@@ -68,6 +68,8 @@ public class ObjectShooter : MonoBehaviour
 
             timeOfLastSpawn = Time.time;
         }
+        
+
     }
 
     void OnDrawGizmosSelected()
