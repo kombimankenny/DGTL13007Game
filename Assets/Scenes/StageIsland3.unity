@@ -129775,7 +129775,7 @@ PrefabInstance:
     - target: {fileID: 1818962178563768222, guid: 8c392529b42f5d5448e7679666a1b099,
         type: 3}
       propertyPath: shootingRate
-      value: 0.8
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 1818962178563768222, guid: 8c392529b42f5d5448e7679666a1b099,
         type: 3}
