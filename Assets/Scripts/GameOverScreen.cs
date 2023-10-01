@@ -35,6 +35,7 @@ public class GameOverScreen : MonoBehaviour
         if (hasWon)
         {
             hasWonTextBox.text = "Congratulations! You have completed the ultimate shanty!";// Logic for showing a "Victory" screen
+
         }
         else
         {
