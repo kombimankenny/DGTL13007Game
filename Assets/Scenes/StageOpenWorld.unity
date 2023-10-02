@@ -1052,9 +1052,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1976141021}
   scoreAudioClips:
+  - {fileID: 8300000, guid: 5f4cbc8c6b588df40a2510075e9ea315, type: 3}
   - {fileID: 8300000, guid: 230f549687f83a345a36724a9ea38566, type: 3}
   - {fileID: 8300000, guid: 0169281acc77e9a449a234a605038759, type: 3}
   - {fileID: 8300000, guid: e3ea38cc76415414a8e408e75f53bac6, type: 3}
+  defaultAudioClip: {fileID: 8300000, guid: 5f4cbc8c6b588df40a2510075e9ea315, type: 3}
   scoreManager: {fileID: 1213192334}
 --- !u!4 &797583583
 Transform:
@@ -1749,7 +1751,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

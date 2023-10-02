@@ -49,6 +49,9 @@ public class ScoreBasedAudio : MonoBehaviour
         {
             Debug.LogWarning("Score is out of range for audio clips.");
         }
+
+        // Start the WaitForAudio coroutine
+        StartCoroutine(WaitForAudio());
     }
 
     IEnumerator WaitForAudio()

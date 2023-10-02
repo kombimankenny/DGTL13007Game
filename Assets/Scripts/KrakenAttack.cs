@@ -26,5 +26,16 @@ public class KrakenAttack : MonoBehaviour
                 playerRigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
             }
         }
+        else if (other.CompareTag("Enemy"))
+        {
+            Rigidbody2D enemyRigidbody = other.GetComponent<Rigidbody2D>();
+
+            if (enemyRigidbody != null)
+            {
+                // Apply a force to push the player.
+                Vector2 pushDirection = (other.transform.position - transform.position).normalized;
+                enemyRigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
+            }
+        }
     }
 }

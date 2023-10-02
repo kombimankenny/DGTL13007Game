@@ -98,7 +98,7 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9003184912667795185}
   m_Enabled: 1
-  m_Density: 1
+  m_Density: 5.03
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

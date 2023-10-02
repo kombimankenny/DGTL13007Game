@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StageIsland3.unity
     guid: bb4a1d8a5c96dbc429a8e259f33ba522
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: 4a654ccb0e897c54e961e384b1e84279
   m_configObjects: {}
