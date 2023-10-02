@@ -144,5 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelNames:
-  - StageIslandPlatform2
+  - StageIsland1
+  - StageIsland2
   - StageIsland3

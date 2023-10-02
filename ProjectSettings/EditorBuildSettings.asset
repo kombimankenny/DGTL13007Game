@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StageOpenWorld.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/StageIslandPlatform2.unity
-    guid: eae0ebcf321d5cb4394d657dfb19c9c7
-  - enabled: 1
-    path: Assets/Scenes/StageIsland3.unity
-    guid: bb4a1d8a5c96dbc429a8e259f33ba522
-  - enabled: 1
     path: Assets/Scenes/Tutorial1.unity
     guid: 4a654ccb0e897c54e961e384b1e84279
+  - enabled: 1
+    path: Assets/Scenes/StageIsland1.unity
+    guid: 342193dacddcf384292becb09fd768d0
+  - enabled: 1
+    path: Assets/Scenes/StageIsland2.unity
+    guid: 4285b51085abb494fb163512e818dbde
+  - enabled: 1
+    path: Assets/Scenes/StageIsland3.unity
+    guid: 9babd41b2ab69324981a0a3c85d15f1e
   m_configObjects: {}
