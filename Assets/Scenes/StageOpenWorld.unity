@@ -1135,7 +1135,7 @@ MonoBehaviour:
     maxSpawnCount: 1
   - prefab: {fileID: 4247633843175180315, guid: b280f9dbfd01a5a4ea2cd00574687f97,
       type: 3}
-    spawnDelay: 30
+    spawnDelay: 40
     spawnDistance: 9
     maxSpawnCount: 1
   despawnDistanceThreshold: 12
@@ -1559,7 +1559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 209, y: -52}
+  m_AnchoredPosition: {x: 256, y: -102}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492543186

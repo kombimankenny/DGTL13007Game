@@ -183,7 +183,7 @@ MonoBehaviour:
   player: {fileID: 0}
   projectilePrefab: {fileID: 7271960428052565070, guid: f4f93cac44d436043b993584ee24aac5,
     type: 3}
-  shootingRate: 4
+  shootingRate: 6
   projectileSpeed: 0.7
   maxShootDistance: 20
   movementSpeed: 0
